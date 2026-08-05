@@ -2,7 +2,7 @@
 <div align="center">
 
 
-# 🔐 C1ZX Cipher Tool
+<center><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Bitcount+Prop+Single&size=40&duration=4000&pause=200&width=435&lines=C1ZX+Cipher+Tool;C1ZX+Cipher+Tool" alt="Typing SVG" /></a></center>
 
 ### A Professional Dual-Table Unicode Substitution Cipher
 
@@ -19,21 +19,21 @@ A deterministic two-table Unicode substitution cipher built with extensive valid
 
 ---
 
-# 📖 Overview
+# Overview
 
-C1ZX is a Unicode-based substitution cipher that encrypts printable ASCII characters using two independent substitution tables.
+- C1ZX is a Unicode-based substitution cipher that encrypts printable ASCII characters using two independent substitution tables.
 
-Unlike a traditional monoalphabetic substitution cipher, C1ZX alternates between two completely separate lookup tables depending on the character index.
+- Unlike a traditional monoalphabetic substitution cipher, C1ZX alternates between two completely separate lookup tables depending on the character index.
 
-Even indexed characters use one table.
+- Even indexed characters use one table.
 
-Odd indexed characters use another.
+- Odd indexed characters use another.
 
-This significantly reduces simple repetition patterns while maintaining deterministic and fully reversible encryption.
+- This significantly reduces simple repetition patterns while maintaining deterministic and fully reversible encryption.
 
 ---
 
-# ✨ Features
+# Features
 
 - 🔒 Dual-table substitution cipher
 - 🌍 Unicode symbol encryption
@@ -48,7 +48,7 @@ This significantly reduces simple repetition patterns while maintaining determin
 
 ---
 
-# 🏗 Architecture
+# Architecture
 
 ```
 
@@ -69,9 +69,9 @@ Program
 
 ---
 
-# 🔐 Cryptographic Design
+# Cryptographic Design
 
-C1ZX uses two completely independent substitution tables.
+- C1ZX uses two completely independent substitution tables.
 
 ```
 
@@ -105,15 +105,15 @@ Unicode Ciphertext
 
 ```
 
-Each table owns its own exclusive Unicode symbol pool.
+- Each table owns its own exclusive Unicode symbol pool.
 
-No encrypted symbol exists in both tables.
+- No encrypted symbol exists in both tables.
 
 ---
 
-# ⚙ Initialization Sequence
+# Initialization Sequence
 
-Before encryption is possible the application performs:
+- Before encryption is possible the application performs:
 
 ```
 
@@ -142,27 +142,27 @@ Ready
 
 ```
 
-If any validation fails, the application exits immediately.
+- If any validation fails, the application exits immediately.
 
 ---
 
-# 🧪 Self Tests
+# Self Tests
 
-Every launch automatically performs comprehensive testing.
+- Every launch automatically performs comprehensive testing.
 
-Included tests:
+- Included tests:
 
-- Supported character round-trip
-- Entire character set verification
-- Empty string handling
-- Random string encryption
-- Long text encryption
-- Unicode passthrough
-- Whitespace preservation
-- Control character passthrough
-- Reverse table integrity
-- Alternating parity verification
-- Symbol overlap detection
+	- Supported character round-trip
+	- Entire character set verification
+	- Empty string handling
+	- Random string encryption
+	- Long text encryption
+	- Unicode passthrough
+	- Whitespace preservation
+	- Control character passthrough
+	- Reverse table integrity
+	- Alternating parity verification
+	- Symbol overlap detection
 
 Only after every test passes does the program become available.
 
@@ -181,7 +181,7 @@ Only after every test passes does the program become available.
 
 ---
 
-# 🚀 Installation
+# Installation
 
 Clone the repository
 
@@ -203,18 +203,18 @@ python main.py
 
 ---
 
-# 💻 Requirements
+# Requirements
 
 - Python 3.9+
 - UTF-8 compatible terminal
 
-No external dependencies are required.
+- No external dependencies are required.
 
-Only Python's standard library is used.
+- Only Python's standard library is used.
 
 ---
 
-# 📋 Main Menu
+#  Main Menu
 
 ```
 
@@ -230,7 +230,7 @@ Only Python's standard library is used.
 
 ---
 
-# 🔄 Encryption Workflow
+# Encryption Workflow
 
 ```
 
@@ -256,7 +256,7 @@ Unicode Ciphertext
 
 ---
 
-# 🔓 Decryption Workflow
+# Decryption Workflow
 
 ```
 
@@ -282,7 +282,7 @@ Recovered Plaintext
 
 ---
 
-# 📊 Performance
+# Performance
 
 | Operation | Complexity |
 |------------|-----------|
@@ -291,11 +291,11 @@ Recovered Plaintext
 | Table Lookup | O(1) |
 | Initialization | O(k) |
 
-Where **n** is the text length.
+- Where **n** is the text length.
 
 ---
 
-# 🛡 Validation System
+# Validation System
 
 Before startup C1ZX verifies:
 
@@ -311,25 +311,25 @@ This prevents corrupted cipher tables.
 
 ---
 
-# 🌐 Unicode Support
+# Unicode Support
 
-C1ZX automatically checks terminal compatibility.
+- C1ZX automatically checks terminal compatibility.
 
-If Unicode support is unavailable, a warning is displayed before continuing.
+- If Unicode support is unavailable, a warning is displayed before continuing.
 
-The encryption still functions correctly even if the terminal cannot display the encrypted symbols properly.
+- The encryption still functions correctly even if the terminal cannot display the encrypted symbols properly.
 
 ---
 
-# 📚 Supported Characters
+# Supported Characters
 
-The cipher currently supports:
+- The cipher currently supports:
 
-- Uppercase letters
-- Lowercase letters
-- Numbers
-- ASCII punctuation
-- Space character
+	- Uppercase letters
+	- Lowercase letters
+	- Numbers
+	- ASCII punctuation
+	- Space character
 
 Unsupported Unicode characters pass through unchanged.
 
@@ -351,7 +351,7 @@ Unsupported Unicode characters pass through unchanged.
 
 ---
 
-# 📜 License
+#  License
 
 Distributed under the MIT License.
 
@@ -359,7 +359,7 @@ See **LICENSE** for more information.
 
 ---
 
-# 👤 Author
+#  Author
 
 **Axxo | The NULL**
 
