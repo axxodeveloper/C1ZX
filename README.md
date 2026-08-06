@@ -186,7 +186,7 @@ Only after every test passes does the program become available.
 Clone the repository
 
 ```bash
-git clone https://github.com/USERNAME/C1ZX.git
+git clone https://github.com/axxodeveloper/C1ZX.git
 ```
 
 Enter the project
