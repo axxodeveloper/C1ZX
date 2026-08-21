@@ -16,7 +16,7 @@ Developed by **Axxo | The NULL**
 A deterministic two-table Unicode substitution cipher built with extensive validation, integrity verification, automated testing, and reversible encryption.
 
 </div>
-
+<div></div>
 ---
 
 # Overview
