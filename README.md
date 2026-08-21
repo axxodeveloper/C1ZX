@@ -18,9 +18,6 @@ A deterministic two-table Unicode substitution cipher built with extensive valid
 </div>
 
 
-
-
-
 ---
 
 # Overview
